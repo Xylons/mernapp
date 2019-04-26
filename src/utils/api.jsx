@@ -1,4 +1,5 @@
 import axios from 'axios';
 export default axios.create({
-  baseURL: 'http://localhost:5000/'
+  baseURL: 'https://mernapi-fran.herokuapp.com/'
+  //baseURL: 'http://localhost:5000/'
 });
